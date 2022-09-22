@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 17rem;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+}
+
+.cabecalho a {
+    color: white;
+    font-weight: bolder;
+}
+
+.cabecalho a:hover {
+    text-decoration: underline;
+}
+
+.cabecalho > h1 {
+    font-family: Passion One, cursive;
+    font-size: 10vw;
+    font-variant: small-caps;
+    max-width: auto;
+}
+
+/* Conteúdo principal */
+
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.primeira-estrofe {
+    background-color: white;
+    padding: 20px;
+}
+
+.primeira-estrofe p {
+    font-family: Sriracha, cursive;
+    font-size: 4vw;
+}
+
+.segunda-estrofe {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    box-shadow: inset 0px 10px 17px -1px rgba(0, 0, 0, 0.658);
+}
+
+.segunda-estrofe p {
+    display: inline-block;
+    font-size: 4vw;
+    font-family: Sriracha, cursive;
+    color: white;
+    line-height: 2em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.terceira-estrofe {
+    background-color: white;
+    padding: 20px;
+}
+
+.terceira-estrofe p {
+    font-family: Sriracha, cursive;
+    font-size: 4vw;
+}
+
+.quarta-estrofe {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    box-shadow: inset 0px 10px 17px -1px rgba(0, 0, 0, 0.658);
+}
+
+.quarta-estrofe p {
+    display: inline-block;
+    font-family: Sriracha, cursive;
+    font-size: 4vw;
+    color: white;
+    line-height: 2em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.quinta-estrofe {
+    font-family: Sriracha, cursive;
+    font-size: 4vw;
+    padding: 20px;
+}
+
+.rodape {
+    background-color: black;
+    text-align: center;
+}
+
+.rodape p {
+    color: white;
+    padding: 15px;
+}
+
+.rodape a {
+    color: white;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
